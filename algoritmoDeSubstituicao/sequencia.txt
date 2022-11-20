@@ -1,0 +1,26 @@
+a alarde numa boa ancestral ainda esta disponivel para visitacao e a versao mais antiga da alarde que eu nao quis simplesmente
+descartar depois de mais de milhoes de acessos como dizem misericordia ai que do se voce tiver curiosidade o endereco e numa boa
+net br resolvi que queria estudar criptologia sem frequentar cursos e de preferencia sem sair de casa e sem gastar um tostao com
+livros apostilas cds etc e tal fui a caca de informacoes pela internet rodei rodei pesquisei google i alta vistei e me assustei o material
+em portugues e extremamente escasso para nao dizer inexistente assim nao da material bom esta em italiano frances alemao sueco e 
+logicamente em ingles foi dai que resolvi publicar gradativamente o que encontrei e o que aprendi esta e versao do material 
+disponibilizado sob a licenca creative commons ou se ja esta liberado para voce estudar copiar e distribuir sob a mesma licenca
+preservando a autoria o assunto e de extrema importancia para quem se interessa por seguranca de dados e claro que eu logo pensei
+em destrinchar o blowfish ou coisa que o valha ainda mais depois que li a noticia de que um bando de malucos estava usando a 
+computacao compartilhada para tentar encontrar o maior numero primo do planeta falta do que fazer ou coisa de gente seria ja sei 
+agora vem a celebre pergunta o que e que tem a ver nao sao fatos desconexos criptologia e numeros primos tem tudo a ver a unica
+coisa e que eu quero e tenho certeza voces tambem querem saber direitinho como a coisa funciona resolvi comecar pelo comeco sabia
+decisao mesmo porque tenho a impressao de que desde que o homem existe existe tambem a vontade de esconder informacao e proprio da
+natureza humana pode dar o nome que quiser seguranca de dados sigilo de informacao material classificado ou confidencial segredo
+profissional os escambau a verdade verdadeira e que adoramos esconder o leite entao achei que o melhor a fazer seria seguir a 
+historia da criptologia alem disso onde tem segredo tem quem quer descobrir o segredo desde os primordios da historia existem 
+metodos para esconder informacoes dos mais simples aos mais engenhosos como a toda acao corresponde uma reacao igual econtraria
+desde a antiguidade tambem existem os hackers e crackers que bolam metodos para decifrar e decodificar chega a ser divertido 
+saber que existiram nerds e geeks que se dedicaram a criptologia ainda na antiguidade para minha surpresa em pouco tempo esta 
+secao do site ja e uma das mais visitadas descobri que nao era tao estranho assim eu gostar do assunto pois milhares de internautas
+fizeram com que o ranking do site no google mostrasse a alarde entre os primeiros quando o assunto pesquisado e criptografia ou
+criptologia a criptografia numa boa tambem acabou rendendo um convite para que eu escrevesse um livro apos alguns meses de 
+intenso trabalho nove ao todo como convem a uma gestacao normal criptografia segredos embalados para viagem foi para as grandes
+livrarias do pais e hoje esta esgotado mas o livro pode ser encomendado na nova tec editora venda por demanda por estas e por 
+outras preciso agradecer a calorosa acolhida que todos voces me deram algumas palavras para mudar as estatisticas para facilitar
+o trabalho da turma rodando raroraronnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnuuuuuuuuuuuu
