@@ -2,6 +2,7 @@ package rc4;
 
 import java.util.*;
 
+
 public class rc4 {
     public static void main(String args[]) throws InterruptedException{
         System.out.print("Insira o texto cifrado em hexadecimal: ");
@@ -14,9 +15,9 @@ public class rc4 {
             int decimal = hexadecimalToDecimal(hexa.substring(i, j));
             char temp = (char)decimal;
             texto += temp;
-            System.out.println(hexa.substring(i, j) + " -> " + decimal + " -> " + temp);
-            System.out.println(texto);
-            Thread.sleep(1500);
+            //System.out.println(hexa.substring(i, j) + " -> " + decimal + " -> " + temp);
+            //System.out.println(texto);
+            //Thread.sleep(1500);
         }
 
         System.out.print("Insira a chave que será usada: ");
@@ -42,7 +43,8 @@ public class rc4 {
             if(i%10 == 0) System.out.println();
         }*/
 
-        char[] mensagem = new char[texto.length()];
+        String mensagemHex = "";
+        char[] mensagemChar = new char[texto.length()];
         j=0;
         i=0;
         for(int cont=0; cont<texto.length(); cont++){
@@ -52,21 +54,26 @@ public class rc4 {
             s[i] = s[j];
             s[j] = temp;
 
-            char k = (char)(s[(s[i]+s[j])%256]);
-            System.out.println((s[(s[i]+s[j])%256]) + " -> " + k);
-            System.out.println((int)texto.charAt(cont) + " -> " + texto.charAt(cont));
-            System.out.print(k + " ^ " + texto.charAt(cont));
-            char c = (char)(k ^ texto.charAt(cont));
-            System.out.println(" = " + c + "(hex: " + Integer.toHexString((int)c) + ")");
-            System.out.println();
-            mensagem[cont] = c;
-            Thread.sleep(1500);
+            int k = (s[(s[i]+s[j])%256]);
+            //System.out.println((s[(s[i]+s[j])%256]) + " -> " + k);
+            //System.out.println((int)texto.charAt(cont) + " -> " + texto.charAt(cont));
+            //System.out.print(k + " ^ " + texto.charAt(cont));
+            int c = (k ^ (int)texto.charAt(cont));
+            //System.out.println(" = " + c + "(hex: " + Integer.toHexString((int)c) + ")");
+            //System.out.println();
+            if(c<16)
+                mensagemHex += '0';
+            mensagemHex += Integer.toHexString(c);
+            mensagemChar[cont] = (char)c;
+            //Thread.sleep(1500);
         }
 
-        System.out.print("A mensagem decifrada é: ");
-        for(int cont=0; cont<texto.length(); cont++)
-            System.out.print(mensagem[cont]);
-        
+        System.out.println("A mensagem decifrada em hexadecimal é (100% confiavel): " + mensagemHex);
+        System.out.println();
+
+        System.out.println("A mensagem decifrada em formato de String é (pode ser que haja erros na conversão para ASCII): ");
+        for(int cont=0; cont<mensagemChar.length; cont++)
+            System.out.print(mensagemChar[cont]);
         input.close();
     }
 
